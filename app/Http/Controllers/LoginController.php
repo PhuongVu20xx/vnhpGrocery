@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\DB;
 class LoginController extends Controller
 {
     public function getLoginform(){
-        return view('admin.form.loginform');
+        return view('admin.loginform');
     }
 
     public function postLoginform(Request $request){

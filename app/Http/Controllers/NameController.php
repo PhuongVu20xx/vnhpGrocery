@@ -67,9 +67,9 @@ class NameController
 
 
  //CATEGORY
- static $ADMIN_CONTROLLERS_ADD_CATEGORY = "admin.form.addcategory";
- static $ADMIN_CONTROLLERS_ALL_CATEGORY = "admin.form.allcategory";
- static $ADMIN_CONTROLLERS_Edit_CATEGORY = "admin.form.editcategory";
+ static $ADMIN_CONTROLLERS_ADD_CATEGORY = "admin.addcategory";
+ static $ADMIN_CONTROLLERS_ALL_CATEGORY = "admin.allcategory";
+ static $ADMIN_CONTROLLERS_Edit_CATEGORY = "admin.editcategory";
 
  static $SP_SELECT_ROOT_CATEGORY_NAME = "exec sp_select_root_category_name";
  static $SP_SELECT_ALL_CATEGORY = "exec sp_select_all_category";
@@ -77,26 +77,28 @@ class NameController
 
 
  //PRODUCT
- static $ADMIN_CONTROLLERS_ADD_PRODUCT = "admin.form.addproduct";
- static $ADMIN_CONTROLLERS_ALL_PRODUCT = "admin.form.allproduct";
- static $ADMIN_CONTROLLERS_EDIT_PRODUCT = "admin.form.editproduct";
+ static $ADMIN_CONTROLLERS_ADD_PRODUCT = "admin.addproduct";
+ static $ADMIN_CONTROLLERS_ALL_PRODUCT = "admin.allproduct";
+ static $ADMIN_CONTROLLERS_EDIT_PRODUCT = "admin.editproduct";
  static $SP_SELECT_ALL_PRODUCT = "exec sp_select_all_product";
 
- static $ADMIN_CONTROLLERS_IMPORT_PRODUCT = "admin.form.addImportProduct";
- static $ADMIN_CONTROLLERS_EDIT_IMPORT = "admin.form.editImportProduct";
+ static $ADMIN_CONTROLLERS_IMPORT_PRODUCT = "admin.addImportProduct";
+ static $ADMIN_CONTROLLERS_EDIT_IMPORT = "admin.editImportProduct";
 
- static $ADMIN_CONTROLLERS_IMPORT_STOCK = "admin.form.importstock";
+ static $ADMIN_CONTROLLERS_IMPORT_STOCK = "admin.importstock";
+ static $ADMIN_CONTROLLERS_ALL_STOCK = "admin.allstock";
  static $SP_SELECT_ALL_STOCK = "exec sp_select_stock";
  static $SP_INSERT_STOCK = "exec sp_insert_stock";
+ static $ADMIN_CONTROLLERS_EDIT_STOCK = "admin.editStock";
 
 
 //PAYMENT
-static $ADMIN_CONTROLLERS_PAYMENT_PAGE = "admin.form.payment";
+static $ADMIN_CONTROLLERS_PAYMENT_PAGE = "admin.payment";
 static $SP_SELECT_PAYMENT_MODE = "exec sp_select_payment_mode";
 static $SP_INSERT_PAYMENT_MODE = "exec sp_insert_payment_mode";
 
 //OFFER
-static $ADMIN_CONTROLLERS_OFFER_PAGE = "admin.form.offer";
+static $ADMIN_CONTROLLERS_OFFER_PAGE = "admin.offer";
 static $SP_SELECT_OFFERS_DETAILS = "exec sp_select_offers_details";
 static $SP_INSERT_OFFERS_DETAILS = "exec sp_insert_offers_details";
 
