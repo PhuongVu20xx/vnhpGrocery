@@ -16,7 +16,9 @@
     <link href={{asset('css/admin/layout/sb-admin-2.min.css')}} rel="stylesheet">
 
     <!-- Custom styles for this page -->
-    <link href="bootstrap4.min.css" rel="stylesheet">
+    <link href="{{asset('bootstrap/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{asset('bootstrap/bootstrap.css')}}" rel="stylesheet">
+
 </head>
 
 
@@ -49,14 +51,14 @@
 
 
     <!-- Bootstrap core JavaScript-->
-    <script src={{asset('js/jquery.min.js')}}"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="{{asset('js/jquery.min.js')}}"></script>
+    <script src="{{asset('js/bootstrap/jsbootstrap.bundle.min.js')}}"></script>
 
     <!-- Core plugin JavaScript-->
-    <script src={{asset('js/jquery.easing.min.js')}}></script>
+    <script src="{{asset('js/jquery.easing.min.js')}}"></script>
 
     <!-- Custom scripts for all pages-->
-    <script src={{asset('js/sb-admin-2.min.js')}}></script>
+    <script src="{{asset('js/sb-admin-2.min.js')}}"></script>
 
 </body>
 
