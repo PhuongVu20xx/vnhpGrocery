@@ -96,6 +96,4 @@ Route::post('/offer',[Offer::class,'AddOffer']);
 Route::get('/adminprofile',[Admin::class,'showAdminProfile']);
 Route::post('/adminprofile',[Admin::class,'postAdminProfile']);
 
-
-
 ?>
