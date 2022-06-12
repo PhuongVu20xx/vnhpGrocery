@@ -1,15 +1,15 @@
  <?php
 
-// use Illuminate\Support\Facades\Route;
-// use App\Http\Controllers\AdminController;
-// use App\Http\Controllers\LoginController;
-// use App\Http\Controllers\RegisterController;
-// use App\Http\Controllers\ProfileController;
-// use App\Http\Controllers\HomeController as Home;
-// use App\Http\Controllers\ProductController as Product;
-// use App\Http\Controllers\CategoryController as Category;
-// use App\Http\Controllers\PaymentController as Payment;
-// use App\Http\Controllers\OfferController as Offer;
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AdminController;
+use App\Http\Controllers\LoginController;
+use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\HomeController as Home;
+use App\Http\Controllers\ProductController as Product;
+use App\Http\Controllers\CategoryController as Category;
+use App\Http\Controllers\PaymentController as Payment;
+use App\Http\Controllers\OfferController as Offer;
 
 // // LANDINGPAGE
 // Route::get('/header', function () {
