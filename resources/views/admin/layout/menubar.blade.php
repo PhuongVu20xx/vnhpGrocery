@@ -32,7 +32,7 @@
             <i class="fas fa-fw fa-cog"></i>
             <span>Components</span>
         </a>
-        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+        <div id="collapseTwo" class="collapse" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">Custom Components:</h6>
                 <a class="collapse-item" href="buttons.html">Buttons</a>
@@ -43,17 +43,65 @@
 
     <!-- Nav Item - Utilities Collapse Menu -->
     <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
-            <i class="fas fa-fw fa-wrench"></i>
-            <span>Utilities</span>
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#category" aria-expanded="true" aria-controls="category">
+            <i class="fas fa-boxes"></i>
+            <span>Category</span>
         </a>
-        <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+        <div id="category" class="collapse" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">Custom Utilities:</h6>
-                <a class="collapse-item" href="utilities-color.html">Colors</a>
-                <a class="collapse-item" href="utilities-border.html">Borders</a>
-                <a class="collapse-item" href="utilities-animation.html">Animations</a>
-                <a class="collapse-item" href="utilities-other.html">Other</a>
+                <a class="collapse-item" href="/addcategory">Add Category</a>
+                <a class="collapse-item" href="/addcategory">All Product</a>
+                <a class="collapse-item" href="/editcategory">Edit Category</a>
+            </div>
+        </div>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#product" aria-expanded="true" aria-controls="product">
+            <i class="fas fa-baby-carriage"></i>
+            <span>Product</span>
+        </a>
+        <div id="product" class="collapse" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+                <h6 class="collapse-header">Custom Utilities:</h6>
+                <a class="collapse-item" href="/addproduct">Add Product</a>
+                <a class="collapse-item" href="/allproduct">All Product</a>
+                <a class="collapse-item" href="/editproduct">Edit Product</a>
+                <a class="collapse-item" href="/importproduct">Add Import Product</a>
+                <a class="collapse-item" href="/editimportproduct">Edit Import Product</a>
+                <a class="collapse-item" href="/editstock">Edit Stock</a>
+                <a class="collapse-item" href="/allstock">All Stock</a>
+                <a class="collapse-item" href="/importstock">Importstock</a>
+
+            </div>
+        </div>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#promotion" aria-expanded="true" aria-controls="promotion">
+        <i class="fas fa-percent"></i>        
+            <span>Promotion</span>
+        </a>
+        <div id="promotion" class="collapse" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+                <h6 class="collapse-header">Custom Utilities:</h6>
+                <a class="collapse-item" href="#">All Promotion</a>
+
+            </div>
+        </div>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#payment" aria-expanded="true" aria-controls="payment">
+            <i class="fas fa-money-bill-alt"></i>
+            <span>Payment</span>
+        </a>
+        <div id="payment" class="collapse" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+                <h6 class="collapse-header">Custom Utilities:</h6>
+                <a class="collapse-item" href="#">All Payment</a>
+
             </div>
         </div>
     </li>
