@@ -9,7 +9,6 @@
 <!-- CSS -->    
 @section('css')
     <link rel="stylesheet" href="{{asset('css/register-form.css')}}">
-    <link rel="stylesheet" href={{asset('octopus/octopus/assets/vendor/bootstrap/css/bootstrap.css')}}>
 @endsection
 
 <!-- REGISTER-FORM -->
@@ -29,24 +28,24 @@
                     {{csrf_field()}}
                     <div>
                         <p class="title">* First Name</p>
-                        <input type="text" name="firstname" class="form-input">
+                        <input type="text" name="firstname" class="form-control">
                     </div>
                     <div>
                         <p class="title">* Last Name</p>
-                        <input type="text" name="lastname" class="form-input">
+                        <input type="text" name="lastname" class="form-control">
                     </div>
                     <div>
                         <p class="title">* Email</p>
-                        <input type="text" name="email" class="form-input">
+                        <input type="text" name="email" class="form-control">
                     </div>
                     <div>
                         <p class="title">* Password</p>
-                        <input type="password" name="password" class="form-input" >
+                        <input type="password" name="password" class="form-control" >
                     </div>
 
                     <div>
                         <p class="title">* Mobile Number</p>
-                        <input type="text" name="phonenumber" class="form-input">
+                        <input type="text" name="phonenumber" class="form-control">
                     </div>
                     
                     

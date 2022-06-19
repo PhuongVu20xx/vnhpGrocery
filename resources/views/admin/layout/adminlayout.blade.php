@@ -17,7 +17,7 @@
     <script src="https://kit.fontawesome.com/8b058784b8.js" crossorigin="anonymous"></script>
 
     <!-- Custom styles for this page -->
-    <link href="{{asset('bootstrap/bootstrap.min.css')}}" rel="stylesheet">    
+    <!-- <link href="{{asset('bootstrap/bootstrap.min.css')}}" rel="stylesheet">     -->
     <!-- <link href="{{asset('bootstrap/bootstrap.css')}}" rel="stylesheet"> -->
    
 

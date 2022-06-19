@@ -51,7 +51,7 @@
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">Custom Utilities:</h6>
                 <a class="collapse-item" href="/addcategory">Add Category</a>
-                <a class="collapse-item" href="/addcategory">All Product</a>
+                <a class="collapse-item" href="/allcategory">All Product</a>
                 <a class="collapse-item" href="/editcategory">Edit Category</a>
             </div>
         </div>

@@ -1,14 +1,19 @@
 $(document).ready(()=>{
+    var check = true;
     $('#changepwd').click(function(){
-        $('#account-detail').hide(300);
-        $('#changepwdform').show(300);
+        if(check){
+            $('#account-detail').hide(100);
+            $('#changepwdform').show(200);
+            $('#changepwd').html("Change Profile");
+            check = false;
+        }else{
+            $('#changepwdform').hide(200);
+            $('#account-detail').show(100);
+            $('#changepwd').html("Change Password");
+            check = true;
+        }
     })
-
-    $('#close').click(function(){
-        $('#account-detail').show(300);
-        $('#changepwdform').hide(300);
-    })
-}); 
+})
 
 
 function checkpwd() {
