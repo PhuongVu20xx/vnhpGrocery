@@ -6,7 +6,7 @@
 @endsection
 
 @section('body')
-<link rel="stylesheet" href="{{asset('css/user/pages/needhelps.css')}}">
+<link rel="stylesheet" href="{{asset('css/user/pages/needhelp.css')}}">
 <link href="https://fonts.googleapis.com/css2?family=Babylonica&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/8b058784b8.js" crossorigin="anonymous"></script>
     <h1 class="col-12">HELP CENTER</h1>
