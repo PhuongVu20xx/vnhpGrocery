@@ -7,7 +7,7 @@
     <meta name="csrf-token" content="{{csrf_token()}}">
     <title>Document</title>
     @yield('css')
-    <link rel="stylesheet" href="{{asset('css/bootstrap.css')}}">
+    <link rel="stylesheet" href="{{asset('bootstrap/css/bootstrap.css')}}">
 
 </head>
 <body>
