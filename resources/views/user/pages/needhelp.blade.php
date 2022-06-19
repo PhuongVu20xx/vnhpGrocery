@@ -49,22 +49,25 @@
         <div class="col-md-8">
             <div class="content-container">
                 <div id="services" class="content-needhelp">
-                    <div class="title">Services</div>
+                    <div class="title">Services</div> 
+                     <hr>
                     <div class="content">
                         <h6>Door-To-Door Delivery</h6>
+                      
                         <p>- We offer great customer services to make your shopping experience more enjoyable and convenient. Free delivery for a bill from 1,000,000 VND with shipping distance of 10km and below.</p>
                         <p>- XCLUSIVE BENEFITS for Diamond customers.</p>
                         <p>- Free delivery regardless of bill values within Ho Chi Minh city.</p>
                     </div>
                 </div>
-
                 <div id="loyalty-program" class="content-needhelp">
-                    <div class="title">Loyalty Program</div>
+                    <div class="title">Loyalty Program </div>
+                    <hr>
+
                     <img src="#" alt="">
                 </div>
 
                 <div id="payment-methods" class="content-needhelp">
-                    <div class="title">Payment Methods</div>
+                    <div class="title">Payment Methods <hr></div>
                     <div class="content">
                         
                             <p>- Step 1:  Select the product you want to buy => Click cart icon or “Add to cart”.</p>
@@ -78,7 +81,8 @@
                 </div>
 
                 <div id="return-refund" class="content-needhelp">
-                    <div class="title">Return & Refund Policy</div>
+                    <div class="title">Return & Refund Policy </div>
+                    <hr>
                     <div class="content">
                         
                             <p>- Step 1:  Select the product you want to buy => Click cart icon or “Add to cart”.</p>
@@ -92,7 +96,8 @@
                 </div>
 
                 <div id="delivery" class="content-needhelp">
-                    <div class="title">Delivery Policy</div>
+                    <div class="title">Delivery Policy </div>
+                    <hr>
                     <div class="content">
                         
                             <p>- Step 1:  Select the product you want to buy => Click cart icon or “Add to cart”.</p>
@@ -107,6 +112,7 @@
 
                 <div id="faq" class="content-needhelp">
                     <div class="title">FAQ</div>
+                    <hr>
                     <div class="content">
                         
                             <p>- Step 1:  Select the product you want to buy => Click cart icon or “Add to cart”.</p>
@@ -120,7 +126,8 @@
                 </div>
 
                 <div id="terms-conditions" class="content-needhelp">
-                    <div class="title">Terms & Conditions</div>
+                    <div class="title">Terms & Conditions </div>
+                    <hr>
                     <div class="content">
                         
                             <p>- Step 1:  Select the product you want to buy => Click cart icon or “Add to cart”.</p>
@@ -135,6 +142,7 @@
 
                 <div id="privacy" class="content-needhelp">
                     <div class="title">Privacy Policy</div>
+                    <hr>
                     <div class="content">
                         
                             <p>- Step 1:  Select the product you want to buy => Click cart icon or “Add to cart”.</p>
