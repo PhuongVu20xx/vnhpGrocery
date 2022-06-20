@@ -1,0 +1,46 @@
+.menu-container {
+    padding: 20px 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: black;
+    box-shadow: 0px 0px 5px 5px #ececec;
+}
+.row{
+    background-color: whitesmoke;
+}
+.menu-container ul li {
+    padding-left: 20px;
+    list-style-type: none;
+    margin: 10px 10px 10px 10px;
+
+}
+.content-needhelp{
+    padding: 20px;
+    margin-bottom: 15px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px 5px #ececec;
+    font-size: 13px;
+}
+.menu-container ul li a {
+    text-decoration: none;
+    color: black;
+}
+.menu-container ul li a:hover {
+    color: tomato;
+}
+.menu-container ul li a i {
+    color: black;
+}
+.menu-container ul li a span {
+    font-weight: bold;
+}
+/* ********************************* */
+.title {
+    font-size: 20px;
+}
+h1 {
+    text-align: center;
+    color: rgb(170, 163, 163);
+}
+hr{
+    margin: 0px 0px 15px;
+}

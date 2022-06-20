@@ -9,7 +9,7 @@ use App\Http\Controllers\Controller;
 class RegisterController extends Controller
 {
     public function getRegisterform(){
-        return view('admin.form.registerform');
+        return view('admin.registerform');
     }
     public function postRegisterform(Request $request){
         $this->validate($request,[

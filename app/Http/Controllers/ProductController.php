@@ -80,13 +80,13 @@ class ProductController extends Controller
         
     }
 
-    public function ShowImportStock()
+    public function ShowImportStock(Request $request)
     {
         $productname    = $request->select_product;
         $supplier       = $request->select_suppliers;
         $offer          = $request->offers_name;
         $quantity       = $request->quantity;
-        $status = $request->stock_status;
+        $status         = $request->stock_status;
 
         $st=0;
         if($status == "on") $st=1;
@@ -102,13 +102,20 @@ class ProductController extends Controller
     public function AllStock()
     {
         $allstock = DB::select('exec sp_select_stock');
-        return view(NameController::$SP_SELECT_ALL_STOCK, ['allstock'=>$allstock]);
+        return view(NameController::$ADMIN_CONTROLLERS_ALL_STOCK, ['allstock'=>$allstock]);
     }
  
 
-    public function EditStock()
+    public function showEditStock()
     {
+        $select_product=DB::select(NameController::$SP_SELECT_ALL_PRODUCT);
+        $select_suppliers=DB::select(NameController::$SP_SELECT_ALL_SUPPLIER);
+        return view(NameController::$ADMIN_CONTROLLERS_EDIT_STOCK, ['select_product'=>$select_product,'select_suppliers'=>$select_suppliers]);
 
+    }
+    public function postEditStock()
+    {
+        
     }
 
 

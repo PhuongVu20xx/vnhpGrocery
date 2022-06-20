@@ -1,0 +1,80 @@
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.form-header{
+    font-size: 35px;
+    font-weight: 200;
+    font-style:italic;
+    text-align: center;
+    font-family: "Open Sans", Verdana, Arial, sans-serif;
+}
+
+.content{
+    width: 100%;
+    display: block;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 520;
+    font-style: italic;
+    line-height: 20px;
+    margin-bottom: 0px ;
+    color: #333333;
+}
+.form-group{
+    padding-left: 0px;
+    margin-top: 10px;
+}
+.input-form{
+    width: 100%;
+    min-height: 40px;   
+    border : 1px solid #ccc;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #000001;
+}
+.form-element{
+    margin-bottom: 5px;
+}
+.form-submit{
+    margin-top: 20px;
+    width: 35%;
+    height: 40px;
+    background: #666666;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    line-height: 31px;
+    color: #ffffff;
+    font-weight:700;
+    cursor: pointer;
+    border: 0px none;
+}
+#submit{
+    text-align: center;
+    position: relative;
+}
+.form-submit:hover{
+    background-color: #4e4747;
+}
+
+#forgot{
+    float: right;
+}
+#forgot a:link{
+    text-decoration: underline;
+    color: #74736D;
+}
+#forgot a:visited{
+    color: #74736D;
+}
+
+.col-lg-6{
+    /* border-top: 1px solid #ccc; */
+    border-bottom: 1px solid #ccc;
+    margin: 10px 0px 50px 0px;
+    padding-bottom: 30px;
+}
