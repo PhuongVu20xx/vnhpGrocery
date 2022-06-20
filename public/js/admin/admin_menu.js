@@ -7,15 +7,18 @@ $(document).ready(function () {
 
     $(".admin_menu").click(function () {
         var target = $(this).data("link");
-        //window.location.href = "/" + target;
-        window.open("http://127.0.0.1:8000/" + target, "_self");
-        // $.ajax({
+        let url =  target;
 
-        //     success: function () {
-        //         //window.location.href = '/addcategory';
-        //     },
-        // });
+        $.ajax(
+            {
+              url : url,
+              type: "GET",
+              success: function() {
+                //window.open(url,"_self");
+                //window.location = url;
+                window.location.href = target;
+                //location.href = url;
+              }
+            });
     });
 });
-
-

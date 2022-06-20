@@ -24,9 +24,11 @@ function edit(event) {
             id: category_id,
             status: category_status
         },
-        success: function () {
+        success: function (event) {
+            $name = event;
+            console.log($name);
             //window.location.href = '/addcategory';
-            window.open("/addcategory", "_self");
+            window.open("/editcategory", "_self");
             //alert("Success");
         }
     })

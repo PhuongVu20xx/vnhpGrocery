@@ -61,11 +61,13 @@ class CategoryController extends Controller
         $id = $request->id;
         $status = $request->status;
 
-        // $categories = DB::select(NameController::$SP_SELECT_ROOT_CATEGORY_NAME);
-        // $name = '';
-        // $currentCategory = DB::select("exec sp_select_category_by_id $id");
-        // if(count($currentCategory)>0) $name = $currentCategory->category_name;
+        $categories = DB::select(NameController::$SP_SELECT_ROOT_CATEGORY_NAME);
+        $name = '';
+        $currentCategory = DB::select("exec sp_select_category_by_id $id");
+        if(count($currentCategory)>0) $name = $currentCategory->category_name;
 
+
+        return $name + " " + $status;
         //return view(NameController::$ADMIN_CONTROLLERS_Edit_CATEGORY,['categories'=>$categories,'name'=>$name,'status'=>$status]);
         //return redirect()->action([CategoryController::class,'EditCategory'],['id'=>$id,'status'=>$status]);
     }

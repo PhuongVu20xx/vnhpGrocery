@@ -15,7 +15,7 @@
     <!-- Custom styles for this template -->
     <link href="{{asset('css/admin/layout/sb-admin-2.min.css')}}" rel="stylesheet">
     <script src="https://kit.fontawesome.com/8b058784b8.js" crossorigin="anonymous"></script>
-    <link href="{{asset('css/admin/layout/admin-navbar.css')}}" rel="stylesheet">
+    <link href="{{asset('css/admin/layout/admin.css')}}" rel="stylesheet">
     <!-- Custom styles for this page -->
     <!-- <link href="{{asset('bootstrap/bootstrap.min.css')}}" rel="stylesheet">     -->
     <!-- <link href="{{asset('bootstrap/bootstrap.css')}}" rel="stylesheet"> -->

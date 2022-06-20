@@ -1,7 +1,8 @@
 @extends('admin.layout.adminlayout')
 
 @section('css')
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/admin/form/response-tableadminfeedback.css') }}"> 
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/admin/form/response-tableadminfeedback.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/admin/form/admin.css') }}">
 @endsection
 
 @section('topbar')
@@ -49,7 +50,7 @@
                                         <td><input type="checkbox" id="category_status" class="category_status"
                                                 name="category_status" data-id={{ $category->category_id }}></td>
                                     @endif
-                                    <td><i id="edit_category" onclick="edit(event)"  data-id={{ $category->category_id }} class="fa-solid fa-pen-to-square" style="color:black"></i></td>
+                                    <td><i id="edit_category"  onclick="edit(event)"  data-id={{ $category->category_id }} class="fa-solid fa-pen-to-square edit_category"></i></td>
                                 </tr>
                             @endforeach
                         @endif
