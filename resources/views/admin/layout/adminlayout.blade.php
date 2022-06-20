@@ -15,11 +15,11 @@
     <!-- Custom styles for this template -->
     <link href="{{asset('css/admin/layout/sb-admin-2.min.css')}}" rel="stylesheet">
     <script src="https://kit.fontawesome.com/8b058784b8.js" crossorigin="anonymous"></script>
-
+    <link href="{{asset('css/admin/layout/admin-navbar.css')}}" rel="stylesheet">
     <!-- Custom styles for this page -->
     <!-- <link href="{{asset('bootstrap/bootstrap.min.css')}}" rel="stylesheet">     -->
     <!-- <link href="{{asset('bootstrap/bootstrap.css')}}" rel="stylesheet"> -->
-   
+
 
     @yield('css')
 </head>
@@ -39,7 +39,7 @@
             <!-- Main Content -->
             <div id="content">
                 @yield('topbar')
-               
+
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
                  @yield('bodycontent')
@@ -54,14 +54,16 @@
 
 
     <!-- Bootstrap core JavaScript-->
+
     <script src="{{asset('js/jquery.min.js')}}"></script>
+    <script src="{{asset('js/sb-admin-2.min.js')}}"></script>
+
     <script src="{{asset('js/bootstrap.bundle.min.js')}}"></script>
 
     <!-- Core plugin JavaScript-->
     <script src="{{asset('js/jquery.easing.min.js')}}"></script>
 
     <!-- Custom scripts for all pages-->
-    <script src="{{asset('js/sb-admin-2.min.js')}}"></script>
     <!-- <script src="https://kit.fontawesome.com/aff0384d2c.js" crossorigin="anonymous"></script> -->
     @yield('scripts')
 </body>

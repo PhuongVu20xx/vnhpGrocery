@@ -50,9 +50,9 @@
         <div id="category" class="collapse" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">Custom Utilities:</h6>
-                <a class="collapse-item" href="/addcategory">Add Category</a>
-                <a class="collapse-item" href="/allcategory">All Product</a>
-                <a class="collapse-item" href="/editcategory">Edit Category</a>
+                <a class="collapse-item admin_menu" data-link="addcategory">Add Category</a>
+                <a class="collapse-item admin_menu" data-link="allcategory">All Category</a>
+                <a class="collapse-item admin_menu" data-link="editcategory">Edit Category</a>
             </div>
         </div>
     </li>
@@ -65,14 +65,14 @@
         <div id="product" class="collapse" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">Custom Utilities:</h6>
-                <a class="collapse-item" href="/addproduct">Add Product</a>
-                <a class="collapse-item" href="/allproduct">All Product</a>
-                <a class="collapse-item" href="/editproduct">Edit Product</a>
-                <a class="collapse-item" href="/importproduct">Add Import Product</a>
-                <a class="collapse-item" href="/editimportproduct">Edit Import Product</a>
-                <a class="collapse-item" href="/editstock">Edit Stock</a>
-                <a class="collapse-item" href="/allstock">All Stock</a>
-                <a class="collapse-item" href="/importstock">Importstock</a>
+                <a class="collapse-item admin_menu" data-link="addproduct">Add Product</a>
+                <a class="collapse-item admin_menu" data-link="allproduct">All Product</a>
+                <a class="collapse-item admin_menu" data-link="editproduct">Edit Product</a>
+                <a class="collapse-item admin_menu" data-link="importproduct">Add Import Product</a>
+                <a class="collapse-item admin_menu" data-link="editimportproduct">Edit Import Product</a>
+                <a class="collapse-item admin_menu" data-link="editstock">Edit Stock</a>
+                <a class="collapse-item admin_menu" data-link="allstock">All Stock</a>
+                <a class="collapse-item admin_menu" data-link="importstock">Importstock</a>
 
             </div>
         </div>
@@ -80,13 +80,13 @@
 
     <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#promotion" aria-expanded="true" aria-controls="promotion">
-        <i class="fas fa-percent"></i>        
+        <i class="fas fa-percent"></i>
             <span>Promotion</span>
         </a>
         <div id="promotion" class="collapse" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">Custom Utilities:</h6>
-                <a class="collapse-item" href="#">All Promotion</a>
+                <a class="collapse-item admin_menu" data-link="#">All Promotion</a>
 
             </div>
         </div>
@@ -100,7 +100,7 @@
         <div id="payment" class="collapse" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">Custom Utilities:</h6>
-                <a class="collapse-item" href="#">All Payment</a>
+                <a class="collapse-item admin_menu" data-link="#">All Payment</a>
 
             </div>
         </div>
@@ -157,3 +157,5 @@
     </div>
 
 </ul>
+<script src="{{asset('js/jquery.min.js')}}"></script>
+<script src="{{ asset('js/admin/admin_menu.js') }}"></script>

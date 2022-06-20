@@ -44,14 +44,14 @@
 
 /* switch button  */
 .TriSea-technologies-Switch > input[type="checkbox"] {
-    display: none;   
+    display: none;
 }
 
 .TriSea-technologies-Switch > label {
     cursor: pointer;
     height: 0px;
-    position: relative; 
-    width: 40px;  
+    position: relative;
+    width: 40px;
 }
 
 .TriSea-technologies-Switch > label::before {
@@ -87,7 +87,6 @@
     background: inherit;
     left: 20px;
 }
-
 
 
 

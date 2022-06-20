@@ -1,22 +1,21 @@
-$(document).ready(function() {
+$(document).ready(function () {
     $.ajaxSetup({
         headers: {
-            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-        }
+            "X-CSRF-TOKEN": $('meta[name="csrf-token"]').attr("content"),
+        },
     });
 
-    var trigger = $('.admin_menu');
+    $(".admin_menu").click(function () {
+        var target = $(this).data("link");
+        //window.location.href = "/" + target;
+        window.open("http://127.0.0.1:8000/" + target, "_self");
+        // $.ajax({
 
-    trigger.click(function() {
-        var $this = $(this);
-        var target = $this.data('target');
-
-        $.ajax({
-            success: function() {
-                //window.location.href = '/addcategory';
-                window.open("/" + target, "_self");
-            }
-        });
+        //     success: function () {
+        //         //window.location.href = '/addcategory';
+        //     },
+        // });
     });
 });
+
 
