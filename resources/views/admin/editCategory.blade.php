@@ -18,7 +18,6 @@
         <div class="col-md-8">
             <!-- Account details card-->
             <div class="card mb-4">
-                <form action="/editcategory" method="post">
                     {{ csrf_field() }}
                     <div class="card-header">Edit Category</div>
                     <div class="card-body">
@@ -66,11 +65,10 @@
                         <!-- Save changes button-->
                         <div class="row gx-3 mb-3">
                             <div class="col-5"></div>
-                            <input type="submit" id="save" class="col-2 btn btn-primary" value="Save">
+                            <span id="save" class="col-2 btn btn-primary" >Update Category</span>
                             <div class="col-5"></div>
                         </div>
                     </div>
-                </form>
             </div>
         </div>
         <div class="col-md-2"></div>
@@ -80,7 +78,7 @@
 @endsection
 
 @section('scripts')
-        
+
 @endsection
 
 

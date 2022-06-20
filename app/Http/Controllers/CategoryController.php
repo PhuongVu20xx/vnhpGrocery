@@ -35,8 +35,6 @@ class CategoryController extends Controller
             $id = $request->id;
             $status = $request->status;
             DB::update("exec sp_update_category_status $id,$status");
-
-            return redirect()->action([CategoryController::class,'ShowAllCategory']);
     }
 
     public function ShowAllCategory()

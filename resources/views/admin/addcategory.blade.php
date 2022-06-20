@@ -21,7 +21,7 @@
                     {{ csrf_field() }}
                     <div class="card-header ">Add Category</div>
                     <div class="card-body">
-                        
+
                         <!-- Form Group-->
                         <div class="mb-3">
                             <label class="small mb-1" for="category-root">Category Root</label>
@@ -54,11 +54,10 @@
                         <!-- Save changes button-->
                         <div class="row gx-3 mb-3">
                             <div class="col-5"></div>
-                            <input type="submit" id="save" class="col-2 btn btn-primary" value="Save">
+                            <span id="save" class="col-2 btn btn-primary" >Add Category</span>
                             <div class="col-5"></div>
                         </div>
                     </div>
-                </form>
             </div>
         </div>
         <div class="col-md-2"></div>

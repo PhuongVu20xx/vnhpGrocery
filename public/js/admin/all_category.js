@@ -18,15 +18,15 @@ function edit(event) {
     var category_status = $("input[id='category_status'][data-id=" + category_id + "]").prop('checked') == true ? 1 : 0;
 
     $.ajax({
-        method: "POST",
+        type: "POST",
         url: '/allcategory',
         data: {
             id: category_id,
             status: category_status
         },
-        success: function (event) {
-            $name = event;
-            console.log($name);
+        success: function (data) {
+            $name = data;
+            
             //window.location.href = '/addcategory';
             window.open("/editcategory", "_self");
             //alert("Success");
