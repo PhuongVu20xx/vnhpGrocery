@@ -84,7 +84,7 @@ Route::get('/addcategory',[Category::class, 'ShowAddCategory']);
 Route::post('/addcategory',[Category::class, 'AddNewCategory']);
 
 Route::get('/allcategory',[Category::class,'ShowAllCategory']);
-Route::post('/allcategory',[Category::class,'RequestEditCategory'])->name('allcategory');
+Route::post('/allcategory',[Category::class,'RequestEditCategory']);
 Route::get('/editcategory',[Category::class,'EditCategory']);
 
 // ADMIN PAYMENT
@@ -97,4 +97,4 @@ Route::post('/offer',[Offer::class,'AddOffer']);
 
 // ADMIN PROFILE
 Route::get('/adminprofile',[AdminController::class,'showAdminProfile']);
-Route::post('/adminprofile',[AdminController::class,'postAdminProfile']);  
+Route::post('/adminprofile',[AdminController::class,'postAdminProfile']);
