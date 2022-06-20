@@ -1,7 +1,7 @@
 @extends('admin.layout.adminlayout')
 
 @section('css')
-    <link rel="stylesheet" href="{{asset('css/admin/layout/form.css')}}">
+    <link rel="stylesheet" href="{{ asset('css/admin/layout/form.css') }}">
 @endsection
 
 @section('topbar')
@@ -54,7 +54,7 @@
                         <!-- Save changes button-->
                         <div class="row gx-3 mb-3">
                             <div class="col-5"></div>
-                            <span id="save" class="col-2 btn btn-primary" >Add Category</span>
+                            <span id="addCategory" class="col-2 btn btn-primary">Add Category</span>
                             <div class="col-5"></div>
                         </div>
                     </div>
@@ -62,12 +62,8 @@
         </div>
         <div class="col-md-2"></div>
     </div>
-
 @endsection
 
 @section('scripts')
     <script src="{{ asset('js/admin/addcategory.js') }}"></script>
 @endsection
-
-
-

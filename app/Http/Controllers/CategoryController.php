@@ -32,9 +32,9 @@ class CategoryController extends Controller
 
     public function ChangeCategoryStatus(request $request)
     {
-            $id = $request->id;
-            $status = $request->status;
-            DB::update("exec sp_update_category_status $id,$status");
+        $id = $request->id;
+        $status = $request->status;
+        DB::update("exec sp_update_category_status $id,$status");
     }
 
     public function ShowAllCategory()

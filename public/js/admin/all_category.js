@@ -26,10 +26,11 @@ function edit(event) {
         },
         success: function (data) {
             $name = data;
-            
+
             //window.location.href = '/addcategory';
             window.open("/editcategory", "_self");
             //alert("Success");
         }
+
     })
 }

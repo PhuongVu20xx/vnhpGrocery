@@ -4,15 +4,21 @@ $(document).ready(() => {
             'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
         }
     });
-    $("#btn_submit").click(function () {
+    const categoryName = $("#category_name");
+    const categoryRoot = $("#category_root");
+    const categoryId = $("#flexSwitchCheckChecked");
+    $("#addCategory").click(function () {
         $.ajax({
             type: "POST",
             url: "/addcategory",
             data: {
-                category_name: $("#category_name").val(),
-                category_root: $("#category_root").val(),
-                category_status: $("#flexSwitchCheckChecked").val()
+                category_name: categoryName.val(),
+                category_root: categoryRoot.val(),
+                category_status: categoryId.val()
             }, success: function () {
+                categoryName.val("");
+                categoryRoot.val("");
+                categoryId.val("");
                 alert("Success");
             }
         })
