@@ -81,7 +81,7 @@ Route::post('/editimportproduct',[Product::class, 'Editimportproduct']);
 
 // ADMIN CATEGORY
 Route::get('/addcategory',[Category::class, 'ShowAddCategory']);
-Route::post('/addcategory',[Category::class, 'AddNewCategory']);
+Route::post('/addcategory ',[Category::class, 'AddNewCategory']);
 
 Route::get('/allcategory',[Category::class,'ShowAllCategory']);
 Route::post('/allcategory',[Category::class,'RequestEditCategory']);

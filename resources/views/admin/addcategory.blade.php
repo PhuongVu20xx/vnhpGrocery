@@ -17,7 +17,6 @@
         <div class="col-md-2"></div>
         <div class="col-md-8">
             <div class="card mb-4">
-                <form action="/addcategory" method="post">
                     {{ csrf_field() }}
                     <div class="card-header ">Add Category</div>
                     <div class="card-body">
@@ -44,7 +43,7 @@
                         <div class="row gx-3 mb-3">
                             <label class="col-md-2 small mb-1" for="status-category">Status Category</label>
                             <div class="col-md-4">
-                                <div class="TriSea-technologies-Switch pull-right">
+                                <div class=" pull-right">
                                     <input id="TriSeaDefault" name="TriSea1" type="checkbox">
                                     <label for="TriSeaDefault" class="label-default"></label>
                                 </div>

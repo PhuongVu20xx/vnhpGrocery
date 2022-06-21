@@ -9,7 +9,7 @@ use App\Http\Controllers\NameController;
 
 class CategoryController extends Controller
 {
-    public function AddNewCategory(request $request)
+    public function AddNewCategory(Request $request)
     {
         $category_name = $request->category_name;
         $category_root = $request->category_root;

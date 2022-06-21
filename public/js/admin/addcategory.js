@@ -6,7 +6,7 @@ $(document).ready(() => {
     });
     const categoryName = $("#category_name");
     const categoryRoot = $("#category_root");
-    const categoryId = $("#flexSwitchCheckChecked");
+    const categoryId = $("#TriSeaDefault");
     $("#addCategory").click(function () {
         $.ajax({
             type: "POST",
@@ -18,7 +18,7 @@ $(document).ready(() => {
             }, success: function () {
                 categoryName.val("");
                 categoryRoot.val("");
-                categoryId.val("");
+                categoryId.val();
                 alert("Success");
             }
         })
