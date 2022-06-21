@@ -8,7 +8,6 @@ $(document).ready(function () {
     $(".admin_menu").click(function () {
         var target = $(this).data("link");
         let url =  target;
-
         $.ajax(
             {
               url : url,

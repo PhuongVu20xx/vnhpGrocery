@@ -9,7 +9,7 @@ use App\Http\Controllers\NameController;
 
 class CategoryController extends Controller
 {
-    public function AddNewCategory(request $request)
+    public function AddNewCategory(Request $request)
     {
         $category_name = $request->category_name;
         $category_root = $request->category_root;
@@ -32,11 +32,9 @@ class CategoryController extends Controller
 
     public function ChangeCategoryStatus(request $request)
     {
-            $id = $request->id;
-            $status = $request->status;
-            DB::update("exec sp_update_category_status $id,$status");
-
-            return redirect()->action([CategoryController::class,'ShowAllCategory']);
+        $id = $request->id;
+        $status = $request->status;
+        DB::update("exec sp_update_category_status $id,$status");
     }
 
     public function ShowAllCategory()
